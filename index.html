@@ -35,6 +35,17 @@
         height:80px;
         padding:24px;
       }
+      .dial-pad {
+        width: 50%;
+        margin:auto;
+        padding-top:50px;
+      }
+
+      @media screen and (max-width: 600px) {
+        .dial-pad {
+          width: 70%;
+        }
+      }
     </style>
 
   </head>
@@ -60,7 +71,7 @@
           <h4 style="border:1px solid rgba(255,255,255,0.5); border-radius:30px; margin:auto; padding:4%; font-family: 'Open Sans', sans-serif;">ENTER PHONE NUMBER</h4>
         </div>
 
-        <div style="width:50%; margin:auto; padding-top:50px;">
+        <div class="dial-pad">
           <div class="">
             <div class="col-xs-4">
               <h3 class="dial">1</h3>
@@ -102,7 +113,7 @@
               <h3 class="dial">0</h3>
             </div>
             <div class="col-xs-4">
-              <h3 style="border:0px solid white; border-radius:50%; width:80px; height:80px; background:#d9001e; padding:28px 20px"><i class="material-icons">&#xe14a;</i></h3>
+              <h3 class="dial" style="border:0px solid white; background:#d9001e; padding:28px 20px"><i class="material-icons">&#xe14a;</i></h3>
             </div>
           </div>
 
